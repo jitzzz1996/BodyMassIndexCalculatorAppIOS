@@ -13,6 +13,9 @@
 		CE8C26EB269090140082CEAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8C26E9269090140082CEAF /* Main.storyboard */; };
 		CE8C26ED269090150082CEAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8C26EC269090150082CEAF /* Assets.xcassets */; };
 		CE8C26F0269090150082CEAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8C26EE269090150082CEAF /* LaunchScreen.storyboard */; };
+		CE8C26FF2690C9DB0082CEAF /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C26FE2690C9DB0082CEAF /* ResultViewController.swift */; };
+		CE8C27022690CB910082CEAF /* CalculateBMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C27012690CB910082CEAF /* CalculateBMI.swift */; };
+		CE8C27072690D5C60082CEAF /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8C27062690D5C60082CEAF /* BMI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		CE8C26EC269090150082CEAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8C26EF269090150082CEAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE8C26F1269090150082CEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8C26FE2690C9DB0082CEAF /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		CE8C27012690CB910082CEAF /* CalculateBMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateBMI.swift; sourceTree = "<group>"; };
+		CE8C27062690D5C60082CEAF /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +64,40 @@
 			children = (
 				CE8C26E3269090140082CEAF /* AppDelegate.swift */,
 				CE8C26E5269090140082CEAF /* SceneDelegate.swift */,
-				CE8C26E7269090140082CEAF /* ViewController.swift */,
-				CE8C26E9269090140082CEAF /* Main.storyboard */,
+				CE8C26FC26909D080082CEAF /* Models */,
+				CE8C26F926909CF50082CEAF /* Views */,
+				CE8C26FA26909CFF0082CEAF /* Controllers */,
 				CE8C26EC269090150082CEAF /* Assets.xcassets */,
 				CE8C26EE269090150082CEAF /* LaunchScreen.storyboard */,
 				CE8C26F1269090150082CEAF /* Info.plist */,
 			);
 			path = BodyMassIndexCalculatorApp;
+			sourceTree = "<group>";
+		};
+		CE8C26F926909CF50082CEAF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C26E9269090140082CEAF /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE8C26FA26909CFF0082CEAF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C26E7269090140082CEAF /* ViewController.swift */,
+				CE8C26FE2690C9DB0082CEAF /* ResultViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE8C26FC26909D080082CEAF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE8C27012690CB910082CEAF /* CalculateBMI.swift */,
+				CE8C27062690D5C60082CEAF /* BMI.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +173,9 @@
 				CE8C26E8269090140082CEAF /* ViewController.swift in Sources */,
 				CE8C26E4269090140082CEAF /* AppDelegate.swift in Sources */,
 				CE8C26E6269090140082CEAF /* SceneDelegate.swift in Sources */,
+				CE8C27022690CB910082CEAF /* CalculateBMI.swift in Sources */,
+				CE8C27072690D5C60082CEAF /* BMI.swift in Sources */,
+				CE8C26FF2690C9DB0082CEAF /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
